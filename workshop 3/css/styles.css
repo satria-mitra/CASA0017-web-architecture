@@ -1,0 +1,47 @@
+body {
+
+}
+
+.box {
+    background-color: aqua;
+}
+
+.messageContainer {
+    padding: 0px 00px 50px 00px;
+    margin: 20px 40px;
+    width: 300px;
+    font-size: 35px;
+}
+
+.navbar {
+    color: white;
+    font-size: 30px;
+}
+
+.row {
+  background-color: red;
+  margin: 0px 0;
+  padding: 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+
+}
+
+.box-topic {
+  background-color: blue;
+  margin: 0 0;
+}
+
+.box-message {
+  background-color: pink;
+}
+
+.topic {
+  background-color: burlywood;
+  height: 50px;
+  width: 150;
+  text-align: center;
+  padding: 5px;
+  margin: 0 0px 30px 0;
+}

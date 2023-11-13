@@ -1,0 +1,55 @@
+html, body, #wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#header{
+    height: 100px;  //or whatever. Note px not %.
+    width: 100%;
+}
+
+#footer{
+    height: 100px;  //or whatever. Note px not %.
+    width: 100%;
+}
+
+#map-canvas{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+#infobox, #photoCounter {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.4);
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+#map-canvas {
+    z-index: 0;
+}
+
+.head-title {
+    position: absolute;    
+    top: 20px;
+    left: 35%;
+    padding: 5px;
+    z-index: 1;
+    font-size: 30px;
+    background-color: rgba(250, 250, 250, 0.4);
+
+}
